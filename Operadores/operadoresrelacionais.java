@@ -1,3 +1,4 @@
+package Operadores;
 public class operadoresrelacionais {
     public static void main(String[] args) {
         int afirmacao1 = 0;
