@@ -1,8 +1,8 @@
 package Exercicios;
 import java.util.*;
 
-import colecoes.iterator;
-import colecoes.treemap;
+import Aula5.colecoes.iterator;
+import Aula5.colecoes.treemap;
 
 public class PrecosCurso {
     static class InnerPrecosCurso {
