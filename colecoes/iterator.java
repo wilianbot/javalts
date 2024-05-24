@@ -19,9 +19,9 @@ public class iterator {
         int elementos = mapa.size(); // mapa.size informa a quantidade de elementos
         System.out.println("Elementos: " + elementos); 
 
-        Iterator i = mapa.keySet().iterator(); // Um objeto permite interagir com coleções 
-        while (i.hasNext()) {
-            String chave = (String)i.next();
+        Iterator i = mapa.keySet().iterator(); // Um objeto permite interagir com coleções, associando á coleção um mecamismo para percorrer seu conteudo.
+        while (i.hasNext()) { // hasNext retorna true se houver mais elementos na coleção, (Enquanto houver elementos continuara)
+            String chave = (String)i.next(); // metodo next retorna o próximo elemento
             curso = (String)mapa.get(chave);
             System.out.println(chave);
             System.out.println(chave + ":" + curso);
