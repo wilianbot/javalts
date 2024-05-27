@@ -4,8 +4,9 @@ public class AtribudosEstaticos {
     static class Carro {
         // atributos de classe
         
-        public String cor = "";
+        public static String cor = "";
         public String modelo = "";
+        public String motor = "";
     }
 
     public static void main(String[] args) {

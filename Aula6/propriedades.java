@@ -1,12 +1,14 @@
 package Aula6;
 
+//PROPRIEDADES
+
 public class propriedades {
-    static class Innerpropriedades {
+    static class Clientes {
         private int codigo = 0;
         private String nome;
         private boolean ativo;
 
-        public Innerpropriedades(){
+        public Clientes(){
         }
         public void setCodigo(int prcodigo){
             this.codigo = prcodigo;
@@ -29,7 +31,7 @@ public class propriedades {
     }
 
     public static void main(String[] args) {
-        Innerpropriedades c = new Innerpropriedades();
+        Clientes c = new Clientes();
         // Atribuindo valores as propriedades
         c.setCodigo(1000);
         c.setNome("Java");

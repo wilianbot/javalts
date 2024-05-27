@@ -8,6 +8,8 @@ public class codigocompletoclasse {
 
     private boolean ativo = false;
 
+    // get / set - são metodos de acesso
+
     public void setCodigo (int codigo){
         this.codigo = codigo;
     }

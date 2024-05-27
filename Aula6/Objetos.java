@@ -2,7 +2,7 @@ package Aula6;
 
 public class Objetos {
     // Orientação a objetos
-    static class Carros {
+    static class Carros { // classe
         // Atributos de classe
         public String cor = "";
         public String modelos = "";
