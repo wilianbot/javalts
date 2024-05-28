@@ -4,6 +4,8 @@ package Aula6;
 
 public class propriedades {
     static class Clientes {
+
+        // atributos do tipo propriedades
         private int codigo = 0;
         private String nome;
         private boolean ativo;
