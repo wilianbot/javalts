@@ -5,10 +5,15 @@ package Aula7;
 // As classes que implementam estas interfaves devem oferecer uma implementação para cada método definido na sa itnerface.
 // As classes podem implementar mais de uma interface. 
 
-public class Interfaces {
-    public void alterar();
-    public void excluir(int codigo);    
-    public void incluir();
+public interface Veiculo {
+    public String placa = "";
+    public float velMax = 0;
+    public void iniciar();
+    public void parar();
+    default void buzinar(){
+      System.out.println("Buzinando");
+   }
 }
+
 
 

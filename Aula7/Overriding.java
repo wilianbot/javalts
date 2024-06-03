@@ -15,7 +15,7 @@ por um método de mesmo nome de uma sublass.
 
     // Classe Filha que herda de Animal
     class Cachorro extends Animal {
-        // Sobrescrevendo o método fazerSom  da classe pai
+        // Sobrescrevendo o método fazerSom da classe pai
         @Override
         public void fazerSom() {
             System.out.println("Au au!");

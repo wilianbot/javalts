@@ -1,4 +1,7 @@
-package Aula7;;
+package Aula7;
+
+// Herança é a capacidade de uma classe herdar os atributos e métodos de outra classe.
+
 
 public class heranca {
     public static void main(String[] args) {
@@ -27,3 +30,4 @@ public class heranca {
         status = "Codigo " + codigo + " excluido!";
     }
 }
+
