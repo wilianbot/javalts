@@ -1,11 +1,19 @@
 package Aula9;
-
 import java.io.*;
+
+/* ============ CLASSES PARA TRATAR COM STREAM ================
+ * Classe Reader: Para stream de Entrada de caracteres
+ * Classe Writer: Para stream de Saida de caracteres
+ * Classe InputStream: Para streams de Entrada de Byte
+ * Classe OutputStream: Streams de Saida de Byte são manipulados por sublcasses de 
+ * classe OutuputStream.
+*/
+
 public class Stream {
     public static void main(String[] args) {
-        letArquivo("c:\\arquivos\\ler.txt");
+        lerArquivo("c:\\arquivos\\ler.txt");
     }
-    public static void lerArqivo (String arquivo) {
+    public static void lerArquivo (String arquivo) {
         File f = new File(arquivo);
         if (!f.exists()){
             System.out.println("Arquivos: " + arquivo + "Não existe");
@@ -18,7 +26,7 @@ public class Stream {
             InputStreamReader isr = new InputStreamReader(is);
             //BufferedReader é uma classe para armazenar os chars em memoria
             BufferedReader br = new BufferedReader(isr);
-            String s = br.readLine();
+            String s = br.readLine(); //primeira linha
             while (s != null){
                 System.out.println(s);
                 s = br.readLine();
