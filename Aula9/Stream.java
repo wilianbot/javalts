@@ -11,7 +11,7 @@ import java.io.*;
 
 public class Stream {
     public static void main(String[] args) {
-        lerArquivo("c:\\arquivos\\ler.txt");
+        lerArquivo("arquivo");
     }
     public static void lerArquivo (String arquivo) {
         File f = new File(arquivo);

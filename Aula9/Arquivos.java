@@ -16,8 +16,8 @@ public class Arquivos {
     public static void copiarArquivo() {
         //lendo linhas
         try {
-            FileReader i = new FileReader("c: \\arquivos\\ler.txt");
-            FileWriter o =  new FileWriter("c: \\arquivos\\Gravar.txt");
+            FileReader i = new FileReader("arquivo");
+            FileWriter o =  new FileWriter("arquivo");
             BufferedReader in = new BufferedReader(i);
             PrintWriter out = new PrintWriter(o);
             String Linha;
