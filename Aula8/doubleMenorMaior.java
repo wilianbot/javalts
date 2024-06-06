@@ -1,6 +1,8 @@
 package Aula8;
 
 public class doubleMenorMaior {
+    
+    public static void main(String[] args) {
     // Obtendo o maior e menor valor
     double maior = Double.MAX_VALUE;
     double menor = Double.MIN_VALUE;
@@ -12,5 +14,6 @@ public class doubleMenorMaior {
     //convertendo string para double
     b = Double.parseDouble(s);
     //convertendo souble para string
-    s = Double.toString(b);
+    s = Double.toString(b);    
+    }
 }

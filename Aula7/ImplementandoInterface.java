@@ -22,4 +22,9 @@ public class ImplementandoInterface {
     }
     public void setEndereco(String endereco){
     }
+
+
+    public static void main(String[] args) {
+
+    }
 }
